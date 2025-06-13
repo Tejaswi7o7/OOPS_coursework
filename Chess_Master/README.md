@@ -29,6 +29,11 @@ This function countInversions() counts and returns the number of inversions in t
 - `display()`: Prints the matrix.  
 - `closestPair()`: Finds and returns the coordinates of the pair of points with the least Euclidean distance. If the distance between two different pairs are the same, then return the pair with the lesser value of x coordinate. If both distance and x coordinate are same, then return the pair with lesser value of y coordinate.
 
+## Constraints
+- 1 <= dimension_of_matrix <= 10^3
+- -10^18 <= quantam_values <= 10^18 - 1
+- -10^9 <= coordinate_values_of_points <= 10^9
+
 ## Input Format
 The following commands will be given as input:
 - Create 2D Matrix:
