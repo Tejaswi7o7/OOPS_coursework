@@ -36,6 +36,10 @@ Let G(V, E) be a simple graph and K be the set of all 2-element subsets of V. Th
 - `printGraph`: Display the current state of the graph (using the overloaded << operator)
 - `end`: Terminate the program
 
+## Constraints
+ - 1 ≤ N ≤ 10^3 for general operations  
+ - 0 ≤ M ≤ min(N * (N-1) / 2, 10^5)
+
 ## Input Format
 The input consists of multiple operations:
 - First line: `Graph`
