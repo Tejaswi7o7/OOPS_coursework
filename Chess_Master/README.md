@@ -47,7 +47,7 @@ The following commands will be given as input:
 The input will end with the `END` command.
 
 ## Output Format
-- The DISPLAY_2D command should output the matrix in a row-wise manner. Each row will be printed on a new line with each element of a row being separated by a space “ “.
-- The INVERSION_2D command will output a single integer on a newline indicating the number of inversions in the matrix.
-- The CLOSEST_2D command will output four integers on a single line separated by a space “ “. The first two integers denote the coordinates of the first point and the next two integers denote the coordinates of the second point. The points are ordered in the same order as they appear in the input. For example, if the two points are P1 (x1, y1) and P2 (x2, y2) where the point P1 appears before the point P2 in the input, then the output of CLOSEST_2D will be like:  
+- The `DISPLAY_2D` command should output the matrix in a row-wise manner. Each row will be printed on a new line with each element of a row being separated by a space “ “.
+- The `INVERSION_2D` command will output a single integer on a newline indicating the number of inversions in the matrix.
+- The `CLOSEST_2D` command will output four integers on a single line separated by a space “ “. The first two integers denote the coordinates of the first point and the next two integers denote the coordinates of the second point. The points are ordered in the same order as they appear in the input. For example, if the two points are P1 (x1, y1) and P2 (x2, y2) where the point P1 appears before the point P2 in the input, then the output of CLOSEST_2D will be like:  
 x1 y1 x2 y2
